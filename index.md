@@ -77,3 +77,7 @@ inspired by the quickfix option of the Manx's Aztec C compiler on the Amiga.
 The idea is to save the error messages from the compiler in a file and use Vim
 to jump to the errors one by one.  You can examine each problem and fix it,
 without having to remember all the error messages.
+
+# References
+
+[1] http://vimdoc.sourceforge.net/htmldoc/repeat.html#single-repeat
