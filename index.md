@@ -1,18 +1,30 @@
 ---
-title: index
+title: vim / emacs keyboard shortcuts
 ---
 
-# Navigation keyboard shortcuts
+# Keyboard shortcuts
+
+## Navigation
 
 | Navigation | vim   | emacs |
 | ---------- | :---: | :---: |
 | Goto line [count], default last line, on the first non-blank character linewise. | G | M-g g |
-| Join [count] lines, with a minimum of two lines. Remove the indent and insert up to two spaces (see below). | J | M-^ |
 | Go to [count] Older cursor position in [jump list](#jumplist) | C-o | C-x C-SPC |
 | Go to [count] newer cursor position in [jump list](#jumplist) | C-i | ? |
 | Go to [count] older position in [change list](#changelist) | g; | ? |
+
+## Buffers
+
+| Buffers | vim   | emacs |
+| ------- | :---: | :---: |
 | Show all buffers | ls | ? |
 | Unload buffer [N] (default: current buffer) and delete it from the buffer list | bdelete | ? |
+
+## Editing
+
+| Editing | vim   | emacs |
+| ------- | :---: | :---: |
+| Join [count] lines, with a minimum of two lines. Remove the indent and insert up to two spaces (see below). | J | M-^ |
 
 # Glossary
 
