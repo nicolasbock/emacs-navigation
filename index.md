@@ -9,9 +9,9 @@ title: vim / emacs keyboard shortcuts
 | Navigation | vim   | emacs |
 | ---------- | :---: | :---: |
 | Goto line [count], default last line, on the first non-blank character linewise. | `G` | `M-g g` |
-| Go to [count] Older cursor position in [jump list](#jumplist) | `C-o` | `C-x C-SPC` |
-| Go to [count] newer cursor position in [jump list](#jumplist) | `C-i` | ? |
-| Go to [count] older position in [change list](#changelist) | `g;` | ? |
+| Go to [count] Older cursor position in [jump list](#vim-jumplist) | `C-o` | `C-x C-SPC` |
+| Go to [count] newer cursor position in [jump list](#vim-jumplist) | `C-i` | ? |
+| Go to [count] older position in [change list](#vim-changelist) | `g;` | ? |
 | Find the next item in this line after or under the cursor and jump to its [match](#vim-match-motion) | `%` | ? |
 | Display error [nr] in the [quickfix list](#vim-quickfix-list) | `:cc` | ? |
 | Display the [count] next error in the [quickfix list](#vim-quickfix-list) | `:cn` | ? |
@@ -33,13 +33,13 @@ title: vim / emacs keyboard shortcuts
 
 # Glossary
 
-## changelist
+## vim changelist
 
 When making a change the cursor position is remembered.  One position is
 remembered for every change that can be undone, unless it is close to a
 previous change.
 
-## jumplist
+## vim jumplist
 
 Jumps are remembered in a jump list.  With the CTRL-O and CTRL-I command you
 can go to cursor positions before older jumps, and back again.  Thus you can
