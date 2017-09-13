@@ -17,7 +17,7 @@ title: vim / emacs keyboard shortcuts
 
 | Buffers | vim   | emacs |
 | ------- | :---: | :---: |
-| Show all buffers | ls | C-x b |
+| Show all [buffers](#vim-definition-of-buffers-and-windows) | ls | C-x b |
 | Unload buffer [N] (default: current buffer) and delete it from the buffer list | bdelete | C-x k |
 
 ## Editing
