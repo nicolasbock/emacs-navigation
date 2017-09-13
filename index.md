@@ -12,7 +12,7 @@ title: vim / emacs keyboard shortcuts
 | Go to [count] Older cursor position in [jump list](#jumplist) | C-o | C-x C-SPC |
 | Go to [count] newer cursor position in [jump list](#jumplist) | C-i | ? |
 | Go to [count] older position in [change list](#changelist) | g; | ? |
-| Find the next item in this line after or under the cursor and jump to its match [[1](#vim-match-motion)] | % | ? |
+| Find the next item in this line after or under the cursor and jump to its [match](#vim-match-motion) | % | ? |
 
 ## Buffers
 
