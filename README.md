@@ -1,5 +1,5 @@
 # emacs-navigation
 
-A wiki for handy navigations and other tricks in emacs
+A wiki comparing handy navigations and other tricks in vim / emacs
 
 https://nicolasbock.github.io/emacs-navigation/
