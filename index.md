@@ -56,13 +56,13 @@ match.
 
 Items can be:
 
-- ([{}])
+- `([{}])`
 
     parenthesis or (curly/square) brackets
-- /* */
+- `/* */`
 
     start or end of C-style comment
-- #if, #ifdef, #else, #elif, #endif
+- `#if`, `#ifdef`, `#else`, `#elif`, `#endif`
 
     C preprocessor conditionals (when the cursor is on the # or no ([{
     following)
