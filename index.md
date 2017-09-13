@@ -13,6 +13,9 @@ title: vim / emacs keyboard shortcuts
 | Go to [count] newer cursor position in [jump list](#jumplist) | `C-i` | ? |
 | Go to [count] older position in [change list](#changelist) | `g;` | ? |
 | Find the next item in this line after or under the cursor and jump to its [match](#vim-match-motion) | `%` | ? |
+| Display error [nr] in the [quickfix list](#vim-quickfix-list) | `:cc` | ? |
+| Display the [count] next error in the [quickfix list](#vim-quickfix-list) | `:cn` | ? |
+| Display the first error in the [count] next file in the [quickfix list](#vim-quickfix-list) | `:cnf` | ? |
 
 ## Buffers
 
@@ -66,3 +69,11 @@ Items can be:
 
     C preprocessor conditionals (when the cursor is on the # or no ([{
     following)
+
+## vim quickfix list
+
+Vim has a special mode to speedup the edit-compile-edit cycle.  This is
+inspired by the quickfix option of the Manx's Aztec C compiler on the Amiga.
+The idea is to save the error messages from the compiler in a file and use Vim
+to jump to the errors one by one.  You can examine each problem and fix it,
+without having to remember all the error messages.
