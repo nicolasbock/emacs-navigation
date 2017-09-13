@@ -29,7 +29,7 @@ title: vim / emacs keyboard shortcuts
 | Editing | vim   | emacs |
 | ------- | :---: | :---: |
 | Join [count] lines, with a minimum of two lines. Remove the indent and insert up to two spaces (see below). | `J` | `M-^` |
-| Repeat last change | `.` | ? |
+| Repeat last change [[1](http://vimdoc.sourceforge.net/htmldoc/repeat.html#single-repeat)] | `.` | ? |
 
 # Glossary
 
