@@ -1,5 +1,5 @@
 ---
-title: vim / emacs keyboard shortcuts
+title: editor comparison
 ---
 
 # Keyboard shortcuts
@@ -30,6 +30,13 @@ title: vim / emacs keyboard shortcuts
 | ------- | :---: | :---: |
 | Join [count] lines, with a minimum of two lines. Remove the indent and insert up to two spaces (see below). | `J` | `M-^` |
 | Repeat last change [[1](http://vimdoc.sourceforge.net/htmldoc/repeat.html#single-repeat)] | `.` | ? |
+
+## Packages
+
+| vim | emacs |
+| --- | ----- |
+| `fugitive` | `magit` |
+| `command-t` | `flx`, `ido-mode` |
 
 # Glossary
 
