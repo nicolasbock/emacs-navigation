@@ -8,25 +8,25 @@ title: vim / emacs keyboard shortcuts
 
 | Navigation | vim   | emacs |
 | ---------- | :---: | :---: |
-| Goto line [count], default last line, on the first non-blank character linewise. | G | M-g g |
-| Go to [count] Older cursor position in [jump list](#jumplist) | C-o | C-x C-SPC |
-| Go to [count] newer cursor position in [jump list](#jumplist) | C-i | ? |
-| Go to [count] older position in [change list](#changelist) | g; | ? |
-| Find the next item in this line after or under the cursor and jump to its [match](#vim-match-motion) | % | ? |
+| Goto line [count], default last line, on the first non-blank character linewise. | `G` | `M-g g` |
+| Go to [count] Older cursor position in [jump list](#jumplist) | `C-o` | `C-x C-SPC` |
+| Go to [count] newer cursor position in [jump list](#jumplist) | `C-i` | ? |
+| Go to [count] older position in [change list](#changelist) | `g;` | ? |
+| Find the next item in this line after or under the cursor and jump to its [match](#vim-match-motion) | `%` | ? |
 
 ## Buffers
 
 | [Buffers](#vim-definition-of-buffers-and-windows) | vim   | emacs |
 | ------- | :---: | :---: |
-| Show all buffers | ls | C-x b |
-| Unload buffer [N] (default: current buffer) and delete it from the buffer list | bdelete | C-x k |
+| Show all buffers | `ls` | `C-x b` |
+| Unload buffer [N] (default: current buffer) and delete it from the buffer list | `bdelete` | `C-x k` |
 
 ## Editing
 
 | Editing | vim   | emacs |
 | ------- | :---: | :---: |
-| Join [count] lines, with a minimum of two lines. Remove the indent and insert up to two spaces (see below). | J | M-^ |
-| Repeat last change | . | ? |
+| Join [count] lines, with a minimum of two lines. Remove the indent and insert up to two spaces (see below). | `J` | `M-^` |
+| Repeat last change | `.` | ? |
 
 # Glossary
 
