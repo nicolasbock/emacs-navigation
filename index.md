@@ -14,21 +14,6 @@ title: vim / emacs keyboard shortcuts
 | Go to [count] older position in [change list](#changelist) | g; | ? |
 | Find the next item in this line after or under the cursor and jump to its match [1](#vim-match-motion) | % | ? |
 
-## vim match motion
-
-Find the next item in this line after or under the cursor and jump to its
-match.
-
-Items can be:
-
-- ([{}])
-    parenthesis or (curly/square) brackets
-- /* */
-    start or end of C-style comment
-- #if, #ifdef, #else, #elif, #endif
-    C preprocessor conditionals (when the cursor is on the # or no ([{
-    following)
-
 ## Buffers
 
 | [Buffers](#vim-definition-of-buffers-and-windows) | vim   | emacs |
@@ -41,6 +26,7 @@ Items can be:
 | Editing | vim   | emacs |
 | ------- | :---: | :---: |
 | Join [count] lines, with a minimum of two lines. Remove the indent and insert up to two spaces (see below). | J | M-^ |
+| Repeat last change | . | ? |
 
 # Glossary
 
@@ -62,3 +48,18 @@ maximum number of entries is fixed at 100.
 - A buffer is the in-memory text of a file.
 - A window is a viewport on a buffer.
 - A tab page is a collection of windows.
+
+## vim match motion
+
+Find the next item in this line after or under the cursor and jump to its
+match.
+
+Items can be:
+
+- ([{}])
+    parenthesis or (curly/square) brackets
+- /* */
+    start or end of C-style comment
+- #if, #ifdef, #else, #elif, #endif
+    C preprocessor conditionals (when the cursor is on the # or no ([{
+    following)
