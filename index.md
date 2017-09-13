@@ -12,12 +12,28 @@ title: vim / emacs keyboard shortcuts
 | Go to [count] Older cursor position in [jump list](#jumplist) | C-o | C-x C-SPC |
 | Go to [count] newer cursor position in [jump list](#jumplist) | C-i | ? |
 | Go to [count] older position in [change list](#changelist) | g; | ? |
+| Find the next item in this line after or under the cursor and jump to its match [1](#vim-match-motion) | % | ? |
+
+## vim match motion
+
+Find the next item in this line after or under the cursor and jump to its
+match.
+
+Items can be:
+
+- ([{}])
+    parenthesis or (curly/square) brackets
+- /* */
+    start or end of C-style comment
+- #if, #ifdef, #else, #elif, #endif
+    C preprocessor conditionals (when the cursor is on the # or no ([{
+    following)
 
 ## Buffers
 
-| Buffers | vim   | emacs |
+| [Buffers](#vim-definition-of-buffers-and-windows) | vim   | emacs |
 | ------- | :---: | :---: |
-| Show all [buffers](#vim-definition-of-buffers-and-windows) | ls | C-x b |
+| Show all buffers | ls | C-x b |
 | Unload buffer [N] (default: current buffer) and delete it from the buffer list | bdelete | C-x k |
 
 ## Editing
