@@ -14,8 +14,10 @@ title: editor comparison
 | Go to [count] older position in [change list](#vim-changelist) | `g;` | ? |
 | Find the next item in this line after or under the cursor and jump to its [match](#vim-match-motion) | `%` | ? |
 | Display error [nr] in the [quickfix list](#vim-quickfix-list) | `:cc` | ? |
-| Display the [count] next error in the [quickfix list](#vim-quickfix-list) | `:cn` | ? |
+| Display the [count] next error in the [quickfix list](#vim-quickfix-list) | `:cn` | `C-x `` |
 | Display the first error in the [count] next file in the [quickfix list](#vim-quickfix-list) | `:cnf` | ? |
+| Search forward for the [count]'th occurrence of the word nearest to the cursor | `*` | ? |
+| Like "*", but don't put "\<" and "\>" around the word | `g*` | ? |
 
 ## Buffers
 
