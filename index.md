@@ -17,7 +17,7 @@ title: editor comparison
 | Display the [count] next error in the [quickfix list](#vim-quickfix-list) | `:cn` | ``C-x ` `` |
 | Display the first error in the [count] next file in the [quickfix list](#vim-quickfix-list) | `:cnf` | ? |
 | Search forward for the [count]'th occurrence of the word nearest to the cursor | `*` | ? |
-| Like "*", but don't put "\<" and "\>" around the word | `g*` | ? |
+| Like "*", but don't put "\<" and "\>" around the word | `g*` | `C-s C-w` |
 
 ## Buffers
 
