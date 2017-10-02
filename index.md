@@ -19,12 +19,14 @@ title: editor comparison
 | Search forward for the [count]'th occurrence of the word nearest to the cursor | `*` | ? |
 | Like "*", but don't put "\<" and "\>" around the word | `g*` | `C-s C-w` |
 
-## Buffers
+## Buffers / Windows
 
 | [Buffers](#vim-definition-of-buffers-and-windows) | vim   | emacs |
 | ------- | :---: | :---: |
 | Show all buffers | `ls` | `C-x b` |
 | Unload buffer [N] (default: current buffer) and delete it from the buffer list | `bdelete` | `C-x k` |
+| Make all windows (almost) equally high and wide, but use 'winheight' and 'winwidth' for the current window. | `C-W =` | ? |
+| Split current window in two.  The result is two viewports on the same file. | `:sp` | `C-x 2` |
 
 ## Editing
 
