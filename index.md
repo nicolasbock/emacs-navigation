@@ -42,6 +42,10 @@ title: editor comparison
 | `fugitive` | `magit` |
 | `command-t` | `flx`, `ido-mode` |
 
+## Startup from standard input
+
+Starting vim with `vim -` makes vim read from standard input and then edit. There does not seem to be a way of doing that with Emacs.
+
 # Glossary
 
 ## vim changelist
